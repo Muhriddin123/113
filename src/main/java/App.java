@@ -12,8 +12,8 @@ public class App {
         HelloWorld leaf =
                 applicationContext.getBean(HelloWorld.class);
 
-        POJO.Cat one = applicationContext.getBean(POJO.Cat.class);
-        POJO.Cat two = applicationContext.getBean(POJO.Cat.class);
+        Pojo.Cat one = applicationContext.getBean(Pojo.Cat.class);
+        Pojo.Cat two = applicationContext.getBean(Pojo.Cat.class);
         System.out.println("Сравнение бинов helloWorld: " + (tree == leaf));
         System.out.println("Сравнение бинов cat: " + (two == one));
 
