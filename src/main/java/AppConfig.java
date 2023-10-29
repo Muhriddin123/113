@@ -16,7 +16,7 @@ public class AppConfig {
 
     @Bean
     @Scope("prototype")
-    public POJO.Cat cat() {
-        return new POJO.Cat();
+    public Pojo.Cat cat() {
+        return new Pojo.Cat();
     }
 }
